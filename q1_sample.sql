@@ -1,1 +1,1 @@
-select type, count(*) from titles group by type
+select distinct(type) from titles order by type;
